@@ -9,7 +9,8 @@ body{
 
 #cabecalho{
     height: 150px;
-    background-color: rgb(157, 215, 120);
+    background-color:rgb(130, 206, 236);
+    
     width: 100%;
     margin: 0 auto;
     text-align: center;
@@ -27,7 +28,8 @@ body{
 #conteudo{
     height: 500px;
     width: 900px;
-    background-color: rgb(194, 236, 168);
+    background-color: rgb(185, 229, 247);
+    
     float: left;
     margin-top: 10px;
     margin-left: 5px;
@@ -43,14 +45,16 @@ body{
 }
 #rodape{
     height: 50px;
-    background-color: rgb(210, 246, 255);
+    background-color: rgb(130, 206, 236);
     clear: both;
     width: 100%;
     margin: 0 auto;
     text-align: center;
 }
 button {
-    background-color: rgb(157, 215, 120);
+    
+    background-color: rgb(130, 206, 236);
+    
     border: none;
     color: beige;
     padding: 15px 32px;
@@ -86,7 +90,7 @@ button {
   td, th {
     padding: .7em;
     margin: 0;
-    border: 1px solid beige;
+    border: 1px;
     text-align: center;
    }
    
@@ -98,7 +102,7 @@ button {
    }
 
    body{
-    background-color: beige;
+    background-color: rgb(219, 241, 250);
    }
     p{
         color: rgb(31, 25, 88);
