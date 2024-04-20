@@ -1,1 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+}
 
+#cabecalho{
+    height: 80px;
+    background-color: rgb(210, 97, 255);
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+#menu{
+    
+    
+    height: 500px;
+    width: 450px;
+    
+    float: left;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+#conteudo{
+    height: 500px;
+    width: 900px;
+    background-color: rgb(209, 179, 236);
+    float: left;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+#lado{
+    height: 500px;
+    width: 500px;
+   
+    float: left;
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-block-end: 5px;
+}
+
+#rodape{
+    height: 50px;
+    background-color: rgb(210, 97, 255);
+    clear: both;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+button {
+    background-color:rgb(210, 97, 255);
+    border: none;
+    color: beige;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  h3{
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20;
+    text-align: center;
+  }
+  h5{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30;
+  }
+  h2{
+    color:rgb(31, 25, 88);
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+  }
+ 
+  h1{
+    padding:center;
+    font-family: 'Times New Roman', Times, serif;
+    color: beige;
+  }
+ 
+
+
+  td, th {
+    padding: .7em;
+    margin: 0;
+    border: 1px;
+    text-align: center;
+   }
+   
+   table{
+    width: 100%;
+    margin-bottom : .5em;
+    table-layout: fixed;
+    text-align: center;
+   }
+
+   body{
+    background-color: rgb(238, 220, 245);
+   }
+    p{
+        color: rgb(31, 25, 88);
+    }
