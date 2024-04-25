@@ -9,7 +9,7 @@ body{
 
 #cabecalho{
     height: 80px;
-    background-color: rgb(255, 255, 115);
+    background-color: rgb(130, 206, 236);
     width: 100%;
     margin: 0 auto;
     text-align: center;
@@ -26,16 +26,16 @@ body{
 }
 
 #conteudo{
-    height: 500px;
+    height: 600px;
     width: 900px;
-    background-color: rgb(255, 255, 204);
+    background-color:rgb(185, 229, 247);;
     float: left;
     margin-top: 10px;
     margin-left: 5px;
 }
 #lado{
-    height: 500px;
-    width: 500px;
+    height: 550px;
+    width: 520px;
    
     float: left;
     margin-left: 5px;
@@ -44,25 +44,22 @@ body{
 }
 #cabecalho2{
     height: 80px;
-    background-color: rgb(255, 255, 115);
+    background-color: rgb(130, 206, 236);
     clear: both;
     width: 100%;
     clear: both;
     text-align: center;
 }
-#menu2{
-    height: 500px;
-    width: 450px;
-    
+#menu2{  
     float: left;
-    margin-left: 30px;
+    margin-left: 100px;
     margin-top: 10px;
 }
 
 #conteudo2{
-        height: 380px;
+        height: 500px;
         width: 900px;
-        background-color: rgb(255, 255, 204);
+        background-color: rgb(185, 229, 247);;
         float: left;
         margin-top: 10px;
         margin-left: 5px;
@@ -79,7 +76,7 @@ body{
 }
 #menu3{
     height: 500px;
-    width: 450px;
+    width: 5px;
 
     float: left;
     margin-left: 30px;
@@ -87,12 +84,13 @@ body{
 }
 
 #conteudo3{
-        height: 380px;
+        height: 500px;
         width: 900px;
-        background-color: rgb(255, 255, 204);
+        background-color: rgb(185, 229, 247);;
         float: left;
         margin-top: 10px;
-        margin-left: 5px;
+        margin-left: 0px;
+        font-family: Arial, Helvetica, sans-serif;
 
 }
 #lado3{
@@ -105,23 +103,23 @@ body{
 }
 #rodape{
     height: 50px;
-    background-color: rgb(255, 255, 115);
+    background-color: rgb(130, 206, 236);
     clear: both;
     width: 100%;
     margin: 0 auto;
     text-align: center;
 }
 button {
-    background-color: rgb(255, 255, 115);
+    background-color: rgb(130, 206, 236);
     border: none;
-    color:rgb(24, 151, 52);
+    color:beige;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
   }
-  h3{
+  h3, h4{
     font-weight: normal;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 2;
@@ -132,7 +130,7 @@ button {
     font-size: 30;
   }
   h2{
-    color:rgb(24, 151, 52);
+    color:rgb(31, 25, 88);
     text-align: center;
     font-family:'Times New Roman', Times, serif;
   }
@@ -140,7 +138,7 @@ button {
   h1{
     padding:center;
     font-family: 'Times New Roman', Times, serif;
-    color: rgb(24, 151, 52);
+    color:beige;
   }
  
 
@@ -160,8 +158,19 @@ button {
    }
 
    body{
-    background-color: beige;
+    background-color: rgb(219, 241, 250);
    }
     p{
         color: rgb(31, 25, 88);
+    }
+    img{
+        -webkit-transition: -webkit-transform .5s ease;
+        transition: transform .5s ease;
+    }
+     
+    img:hover{
+        -webkit-transform:scale(1);
+        transform: scale(1.09);
+     
+     
     }

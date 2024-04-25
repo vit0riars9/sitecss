@@ -27,7 +27,7 @@ body{
 }
 #conteudo{
     height: 500px;
-    width: 900px;
+    width: 950px;
     background-color: rgb(185, 229, 247);
     
     float: left;
@@ -56,7 +56,7 @@ button {
     background-color: rgb(130, 206, 236);
     
     border: none;
-    color: beige;
+    color: rgb(31, 25, 88);
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -107,3 +107,14 @@ button {
     p{
         color: rgb(31, 25, 88);
     }
+    img{
+      -webkit-transition: -webkit-transform .5s ease;
+      transition: transform .5s ease;
+  }
+   
+  img:hover{
+      -webkit-transform:scale(1);
+      transform: scale(1.09);
+   
+   
+  }

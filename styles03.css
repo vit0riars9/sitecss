@@ -9,7 +9,7 @@ body{
 
 #cabecalho{
     height: 80px;
-    background-color: rgb(255, 113, 201);
+    background-color: rgb(130, 206, 236);
     width: 100%;
     margin: 0 auto;
     text-align: center;
@@ -26,9 +26,9 @@ body{
 }
 
 #conteudo{
-    height: 500px;
+    height: 580px;
     width: 900px;
-    background-color: rgb(255, 162, 216);
+    background-color: rgb(185, 229, 247);
     float: left;
     margin-top: 10px;
     margin-left: 5px;
@@ -45,14 +45,14 @@ body{
 
 #rodape{
     height: 50px;
-    background-color: rgb(255, 113, 201);
+    background-color:rgb(130, 206, 236);
     clear: both;
     width: 100%;
     margin: 0 auto;
     text-align: center;
 }
 button {
-    background-color: rgb(255, 113, 201);
+    background-color: rgb(130, 206, 236);
     border: none;
     color: beige;
     padding: 15px 32px;
@@ -100,8 +100,19 @@ button {
    }
 
    body{
-    background-color: rgb(250, 214, 242);
+    background-color: rgb(219, 241, 250);
    }
     p{
         color: rgb(31, 25, 88);
     }
+    img{
+      -webkit-transition: -webkit-transform .5s ease;
+      transition: transform .5s ease;
+  }
+   
+  img:hover{
+      -webkit-transform:scale(1);
+      transform: scale(1.09);
+   
+   
+  }
